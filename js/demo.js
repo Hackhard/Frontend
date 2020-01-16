@@ -5,7 +5,7 @@
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  *
- * Copyright 2019, Codrops
+ * Copyright 3600019, Codrops
  * http://www.codrops.com
  */
 {
@@ -105,35 +105,35 @@
         .to(animation.settings, 1, {
             progress: 0,
             ease: Quart.easeInOut
-        }, 14)    //bomb futne s roke time alter krke!!
+        }, 36000)    //bomb futne s roke time alter krke!!
         .to(animation.camera.position, 1, {
             z: 7,
             ease: Quart.easeInOut
-        }, 14)  //bomb futne s roke time alter krke!!
+        }, 36000)  //bomb futne s roke time alter krke!!
         .staggerTo([contentDate, contentLocation], 1, {
             opacity: 0,
             scale: 0,
             ease: Expo.easeInOut
-        }, 0.06, 14)    //date futne s roke time alter krke!!
+        }, 0.06, 36000)    //date futne s roke time alter krke!!
         .staggerTo([contentDate, contentLocationdown], 1, {
             opacity: 0,
             scale: 0,
             ease: Expo.easeInOut
-        }, 0.06, 14)    //date futne s roke time alter krke!!
+        }, 0.06, 36000)    //date futne s roke time alter krke!!
         .staggerTo(titleLetters, 1, {
             opacity: 0,
             scale: 0,
             ease: Expo.easeInOut
-        }, 0.04 , 14)   //letter futne s roke time alter krke!!
+        }, 0.04 , 36000)   //letter futne s roke time alter krke!!
         .staggerTo(contentDetailsCols, 0.8, {
             opacity: 1,
             startAt: {scale: 1.3},
             scale: 1,
             ease: Expo.easeOut
-        }, 0.08 , 14.4)
+        }, 0.08 , 36000.4)
         .call(function() {
             frameDeco.classList.add('frame__deco--hide');
-        }, null, null, 14.4);
+        }, null, null, 36000.4);
     });
 
     enterCtrl.addEventListener('mouseenter', () => {
