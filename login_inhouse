@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+        <div class="container" >
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navMain" style="background:#dad7d7">
+    
+        Menu <i class="fa fa-bars"></i>
+    
+        </button>
+            <a href="#" style="color: #000000;text-decoration:none"><img style="max-width: 200px; max-height:auto; display: flex; opacity: 0.5;" src="img/newsky/white.png" alt="Prayukti"> </a>
+          </div>
+          <div class="collapse navbar-collapse" id="navMain">
+            <ul class="nav navbar-nav pull-right">
+                                  <li><a class="navv home" href="index.html"><h5>Home</h5></a></li>
+                                  <li><a class="navv home" href="#home"><h5>About</h5></a></li>
+                                  <li><a class="navv home" href="events.html"><h5>Events</h5></a></li>
+                                  <li><a class="navv home" href="#home"><h5>Gallery</h5></a></li>
+                                  <li><a class="navv home" href="#home"><h5>Riviera</h5></a></li>
+                                  <li><a style="left: 50px;" href="#home"><h5>Register&nbsp;|</h5></a></li>
+                                  <!--<li><a href="#about" class="navv about">About Us</a></li>
+    
+              <li><a class="navv contact">Contact Us</a></li>
+                              </ul>-->
+          </div>
+          
+        </div>
+      </div>
+    
+
+      <form class="login">
+        <input type="username" placeholder="PHONE NUMBER">
+        <input type="username" placeholder="OTP">
+        <input type="submit" value="login"></button>
+        </form>
+</body>
+</html>
