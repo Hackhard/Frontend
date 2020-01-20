@@ -7,7 +7,67 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/login.css">
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-    
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #A49280;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.push {
+  height: 25px;
+}
+
+.button {
+  background-color: #91A1A4;
+  color: #ecf0f1;
+  box-shadow: 2px 2px 5px #809093;
+  /*   box-shadow: 10px 10px 5px #809093; */
+  height: 50px;
+  width: 300px;
+  font-size: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: .9;
+}
+
+.hold-mouse {
+  box-shadow: 4px 4px 55px #809093;
+}
+
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  pointer-events: none;
+  transform: scale(0);
+  /*   animation: grow 1s forwards;          */
+}
+
+
+      </style>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
@@ -38,13 +98,15 @@
           
         </div>
       </div>
-    
-<div class="big">
-      <form class="login">
-        <a href="login_inhouse.html"><input type="submit" value="In House"></a>
-        
-        <a href="login_outhouse.html"><input type="submit" value="Out House"></a>
-    </form>
-</div>
+
+      <div class="container1">
+        <a href="login_inhouse.html"><button id="button-1" class="button"><div id="circle" class="circle"></div>In-House</button></a>
+        <div class="push"></div>
+        <a href="login_outhouse.html"><button id="button-1" class="button"><div id="circle" class="circle"></div>Out-House</button></a>
+        <div class="push"></div>
+      </div>
+      
+      <!-- menu -->
+      <!-- circle with x in the middle -->
 </body>
 </html>
