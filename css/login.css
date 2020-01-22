@@ -49,6 +49,7 @@ body{
 
 }
 
+
 .login input[type ="username"]:focus
 {
      width: 280px;
@@ -82,4 +83,8 @@ button:hover{
   
   border: 2px solid #3498db;
   width: 280px;
+}
+
+#otp{
+  display: none;
 }

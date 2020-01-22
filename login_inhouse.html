@@ -7,8 +7,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/login.css">
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-    
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -41,9 +41,18 @@
     
 
       <div class="login">
-        <input type="username" placeholder="PHONE NUMBER">
-        <input type="username" placeholder="OTP">
-        <button type="submit" >LOGIN</button>
+        
+          <div id="beforeotp">
+            <input type="username" placeholder="PHONE NUMBER">
+            <button id="b1" onclick="otpb()" type="submit">SEND OTP</button>
+          </div>
+
+        
+          <div id="otp">
+              <input type="username" placeholder="OTP">
+              <button type="submit" id="b2" >LOGIN</button>
+          </div>
       </div>
+      <script src="/Frontend/js/login.js"></script>
 </body>
 </html>
