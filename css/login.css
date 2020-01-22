@@ -14,18 +14,23 @@ body{
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
-   color:black !important;
+   color: whitesmoke !important;
+   border: 1px solid;
+   border-color: wheat;
+   opacity: 0.7;
 }
 
 .login{
-  width:300;
+  width:320px;
   padding:40px;
   position: absolute;
   top:50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  background: #171616;
+  
   text-align: center;
+  font-weight: 300;
+  font-size: 14px;
 }  
  
 .login input[type ="username"]
@@ -36,39 +41,50 @@ body{
   text-align: center ;
   border: 2px solid #3498db;
   padding: 14px 10px;
-  width: 200px;
+  width: 240px;
   outline: none;
-  color: white;
+  color: black;
   border-radius: 24px;
   transition: 0.25s;
 
-
-
-
 }
+
 
 .login input[type ="username"]:focus
 {
-   width: 280px;
+     width: 280px;
     border-color: #2ecc71;
+  
 }
 
-.login input[type="submit"]{
+
+
+
+
+button{
   border: 0;
   background: none;
   display: block;
-  margin: 20px auto;
   text-align: center ;
   border: 2px solid #2ecc71;
   padding: 14px 10px;
-  width: 200px;
+  width: 240px;
   outline: none;
   color: white;
   border-radius: 24px;
   transition: 0.25s;
   cursor: pointer;
+  margin:20px auto;
+  
 }
 
-.login input[type="submit"]:hover{
-   background: #2ecc71;
+button:hover{
+  background: #3498db;
+  
+  border: 2px solid #3498db;
+  width: 280px;
+}
+
+#otp{
+  display: none;
 }
