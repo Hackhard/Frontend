@@ -1,8 +1,4 @@
     
-   
-
-
-
  function otpb()  {
         document.getElementById("otp").style.display ="block";
   
