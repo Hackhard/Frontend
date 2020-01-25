@@ -40,10 +40,29 @@
       </div>
     
 
-      <form class="login">
-        <input type="username" placeholder="PHONE NUMBER">
-        <input type="username" placeholder="OTP">
-        <button >LOGIN</button>
-        </form>
+      <div class="login">
+        
+        <div id="beforeotp">
+          <input type="username" placeholder="PHONE NUMBER">
+          <button id="b1" onclick="otpb()" type="submit">SEND OTP</button>
+        </div>
+
+      
+        <div id="otp">
+            <input type="username" placeholder="OTP">
+            <button type="submit" id="b2" >LOGIN</button>
+        </div>
+    </div>
+
+
+    <script>
+          
+function otpb()  {
+document.getElementById("otp").style.display ="block";
+
+document.getElementById("beforeotp").style.display ="none";
+}
+
+    </script>
 </body>
 </html>
