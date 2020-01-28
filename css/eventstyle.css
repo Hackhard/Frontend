@@ -63,7 +63,7 @@ body{
   transition: 0.5s;
   z-index: 1;
   }
-  
+
   .card:hover .imgBx
   {
     bottom: 80px;
@@ -94,7 +94,7 @@ body{
    font-size: 20px;
    color: #777;
    text-transform: uppercase;
-  } 
+  }
 
   .card .details h2 span{
   font-weight: 500;
@@ -102,4 +102,32 @@ body{
   color: #f38695;
   display: block;
   margin-top: 5px;
+   }
+
+   .box a {
+   opacity: 0;
+   animation: fadeIn 0.8s ease-in both;
+   }
+   /*
+   .box a:nth-child(2) {
+   animation-delay:0.5;
+   }
+   .box a:nth-child(3) {
+   animation-delay: 1s;
+   }
+   .box a:nth-child(4) {
+   animation-delay: 1.5s;
+   }
+   .box a:nth-child(5) {
+   animation-delay: 2s
+   }*/
+   @keyframes fadeIn {
+   from {
+     opacity: 0;
+     transform: translate3d(0, -20%, 0);
+   }
+   to {
+     opacity: 1;
+     transform: translate3d(0, 0, 0);
+   }
    } 
