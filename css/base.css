@@ -5,7 +5,10 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	box-sizing: border-box;
 	max-width: 100%;
 }
-
+@font-face {
+	font-family: myFirstFont;
+	src: url('/img/font/MORPHEUS.TTF');
+  }
   
   .icon-3d {
 	padding: 10px;
@@ -315,6 +318,7 @@ canvas {
 }
 
 .content__location {
+	font-family: myFirstFont;
 	font-weight: 10;
 	color: rgb(63, 168, 172);
 	opacity: 0.9;
@@ -329,7 +333,8 @@ canvas {
 }
 
 .content__title {
-	font-weight: 700;
+	font-family: myFirstFont;
+	font-weight: 900;
 	font-size: 9vw;
 	margin: 0;
 	color: white;
@@ -353,6 +358,7 @@ canvas {
 }
 
 .content__date {
+	font-family: myFirstFont;
 	font-size: 2rem;
 	font-weight: 70;
 	margin: 1rem 0 0 0;

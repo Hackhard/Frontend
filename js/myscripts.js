@@ -5,7 +5,7 @@
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.chars = '!<>-_\\/[]{}—=+*^?#________@%**)(';
     this.update = this.update.bind(this);
   }
   setText(newText) {
@@ -63,7 +63,6 @@ class TextScramble {
 const phrases = [
 'Hello HIT',
 'Are you ready?',
-'For the legacy that\'s gonna begin...',
 'Then',
 'Let\'s begin...'];
 
@@ -74,7 +73,7 @@ const fx = new TextScramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 950);
+    setTimeout(next, 1250);
   });
   counter = (counter + 1) % phrases.length;
 };
