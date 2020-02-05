@@ -13,24 +13,53 @@
 		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 		 <!-- Compiled and minified JavaScript -->
 		 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		 <!-- fontawesome cdn -->
+		 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<link rel="stylesheet" href="https://use.typekit.net/ldt4auk.css">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
 		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 		<script type="text/babel" src="js/myscripts.js"></script>
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<style>@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+			.container__1 {
+				margin-top: 10px;
+			  justify-content: center;
+			  align-items: center;
+			  display: flex;
+			}
+			.text__1 {
+			  font-weight: 100;
+			  font-size: 28px;
+			  color: #fafafa;
+			}
+			.dud {
+			  color: #757575;
+			}
+			</style>
 	</head>
 	<body class="demo-1 loading">
 		<main>
+
 			<div id="container"></div>
-			<img src="img/newsky/white.png" alt="Prayukti">
+			
+
 			<div class="frame">
 				<div class="frame__title-wrap">
+
 					<!--<h1 class="frame__title"></h1>-->
 					<div class="frame__links">
-						<a href="team.html">Team</a>
+						<!-- <a href="team.html">Team</a>
 						<a href="#">© Designed by Prayukti Team </a>
-						<a href="https://github.com/Hackhard/Frontend">GitHub</a>
+						<a href="https://github.com/Hackhard/Frontend">GitHub</a> -->
+						<div class="flex-center">
+							<a href="https://www.github.com/hackhard/Frontend"> <i class="fa fa-github fa-2x icon-3d"></i></a>
+							<a href="https://www.facebook.com/prayuktihith/"><i class="fa fa-facebook fa-2x icon-3d"></i></a>
+							<a href="#"><i class="fa fa-instagram fa-2x icon-3d"></i></a>
+							<a href="#"><i class="fa fa-whatsapp fa-2x icon-3d"></i></a>
+						  </div>
 					</div>
+
 				</div>
 				<!--<p class="frame__credits">Inspired by <a href="#">Kubrick Life Website: 3D Motion</a></p>-->
 				<div class="frame__demos">
@@ -44,34 +73,43 @@
 					<a href="index-egg.html" class="frame__demo">Egg</a>
 					<a href="index-brain.html" class="frame__demo">Brain</a>
 					!--->
-					<nav>
-						<ul>
-						  <li class="active"><a href="index.html">Home</a></li>
-						  <li><a href="about.html">About</a></li>
-						  <li><a href="event.html">Events</a></li>
-						  <li><a href="gallery.html">Gallery</a></li>
-						  <li><a href="riv.html">Riviera</a></li>
-						  <li><a href="registration.html">Login</a></li>
-						  <li><a href="registration.html">Sign-up</a></li>
-						</ul>
-					  </div>
-					</nav>
+
+					<nav class="navigation">
+						<a href="#" class="navbar-logo"><img src="img/newsky/white.png" alt="Prayukti" style="width: 120p; height: auto; margin-left: 0px;"></a>
+						<div class="navbar-right">
+							<a href="about.html">About</a>
+							<a href="event.html">Events</a>
+							<a href="gallery.html">Gallery</a>
+							<a href="riv.html">Riviera</a>
+							<a href="registration.html">Sign-In</a>
+
+						</div>
+					  </nav>
+
 				</div>
-			</div><!-- /frame -->
+			</div>
+			<!-- /frame -->
 			<div class="frame__deco">
 				<!--<span class="frame__deco-inner">Amnesia - Bogotá</span>-->
+
 			</div>
+			<div class="container__1">
+				<div class="text__1"></div>
+			  </div>
 			<div class="content">
 				<div class="content__item">
+					
 					<button class="content__button">Take me in</button>
 				</div>
 				<div class="content__item content__item--details">
 
 					<h4 class="content__location">Haldia Institute of Technology </h4>
-					<h6 class="content__location_down">Presents</h6>
+					<h6 class="content__location_down"><em>Presents</em></h6>
 					<h2 class="content__title">Prayukti&nbsp;2020</h2>
-					<p class="content__date">Jan&nbsp;'26 &mdash; 28</p>
+					<p class="content__date">March&nbsp;2 &mdash; 5</p>
+
 				</div>
+
 <!--
 				<div class="content__item content__item--details content__item--columns">
 					<div class="content__inner">
@@ -112,6 +150,7 @@
 					</div>
 
 				</div>
+
 				-->
 
 			</div>

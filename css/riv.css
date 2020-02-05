@@ -1,12 +1,94 @@
 /* Inspired by this pen by Pieter Biesemans https://codepen.io/pieter-biesemans/pen/BQBWXX and My Mother Before Me project http://mymotherbeforeme.com/ */
+div.backBtn {
+  width: 200px;
+  left: 100px;
+  top: 100px;
+  background-color: #f4f4f4;
+  transition: all 0.4s ease;
+  position: fixed;
+  cursor: pointer;
+}
 
+span.line {
+  bottom: auto;
+  right: auto;
+  top: auto;
+  left: auto;
+  background-color: #333;
+  border-radius: 10px;
+  width: 100%;
+  left: 0px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  transition: width 0.2s ease 0.1s, left 0.2s ease, transform 0.2s ease 0.3s, background-color 0.2s ease;
+}
+
+span.tLine {
+  top: 0px;
+}
+
+span.mLine {
+  top: 13px;
+  opacity: 0;
+}
+
+span.bLine {
+  top: 26px;
+}
+
+.label {
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.4s ease;
+  font-size: 1em;
+}
+
+div.backBtn:hover span.label {
+  left: 25px
+}
+
+div.backBtn:hover span.line {
+  left: -10px;
+  height: 5px;
+  background-color: #F76060;
+}
+
+div.backBtn:hover span.tLine {
+  width: 25px;
+  transform: rotate(-45deg);
+  left: -15px;
+  top: 6px;
+}
+
+div.backBtn:hover span.mLine {
+  opacity: 1;
+  width: 30px;
+}
+
+div.backBtn:hover span.bLine {
+  width: 25px;
+  transform: rotate(45deg);
+  left: -15px;
+  top: 20px;
+}
 body {
     font-family: Hepta Slab, sans-serif;
     font-weight: 500;
     background: #efecdb;
-    color: #5D4037;
+    color: rgb(26, 23, 22);
     font-size: small;
-    background-image: url('https://scontent.fblr15-1.fna.fbcdn.net/v/t1.0-9/55536499_842348429457525_5245747371706417152_o.jpg?_nc_cat=104&_nc_ohc=9RP7h2fggCIAX_7rfTj&_nc_ht=scontent.fblr15-1.fna&oh=cb9003267e3a650bc382259d0866a950&oe=5E8EE412');
+    background: url('/img/gallery/riviera.jpg')    no-repeat center center fixed;
+    background-repeat:no-repeat;
+   background-size:cover;
+   overflow: hidden;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   }
   * {
     box-sizing: border-box;

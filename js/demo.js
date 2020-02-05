@@ -25,7 +25,7 @@
         'container', // id of DOM el
         {
             surface: '666666',
-            inside: '1872895',
+            inside: '008BFF',
             background: '151616',
             onLoad: ()=>{
                 document.body.classList.remove('loading');

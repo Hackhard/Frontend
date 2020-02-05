@@ -8,13 +8,6 @@ body{
     background: #212121;
     font-family: sans-serif;
   }
-  .navbar {
-    background:rgba(255,255,255,0.09);
-  }
-  
-  .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
-     color:black !important;
-  }
   .box{
       width: 1200px;
       display: grid;

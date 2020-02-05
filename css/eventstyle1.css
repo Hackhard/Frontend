@@ -136,10 +136,10 @@ body{
     .box{
       margin-top: 320em;
     }
-    @media screen and (max-height: 800px){
+    @media screen and (max-height: 900px){
       body
       {
-        height: 250vh;
+        height: 420vh;
       }
     }
   }
