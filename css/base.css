@@ -401,11 +401,11 @@ canvas {
 	margin: 0;
 	background: none;
 	border: 0;
-	color: var(--color-text);
+	color: #3bcfc5;
 	cursor: pointer;
-	font-size: 1.25rem;
+	font-size: 1.5rem;
 	font-family: titling-gothic-fb-wide, sans-serif;
-	font-weight: 700;
+	font-weight: 70;
 	position: relative;	
 }
 
